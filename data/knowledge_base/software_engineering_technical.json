@@ -1,0 +1,82 @@
+[
+  {
+    "id": "software_engineering_technical_01",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "Can you explain the difference between a hash map and a binary search tree, and when you would choose one over the other?",
+    "strong_answer": "I look at it through the lens of time complexity and data ordering. A hash map gives you average constant time complexity for insertions, deletions, and lookups, which makes it my go-to when I need lightning-fast key-value retrieval and don't care about the sequence. However, worst-case scenarios can degrade performance due to collisions. On the other hand, a binary search tree keeps data sorted and guarantees logarithmic time operations if it remains balanced. I choose a binary search tree when I need range queries or need to iterate through the data in a specific order. So, if speed is everything, I use a hash map, but if order and range matters, I go with the tree.",
+    "why_it_works": "The candidate directly contrasts the two data structures by time complexity and use cases, showing practical engineering judgment without sounding overly academic."
+  },
+  {
+    "id": "software_engineering_technical_02",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "How do you handle database deadlocks in a high-traffic web application?",
+    "strong_answer": "When I face deadlocks, my first step is always to look at the logs to identify the conflicting transactions and the specific queries involved. To prevent them during design, I make sure all transactions access database resources in a consistent, predetermined order. For example, if transaction A and transaction B both need to update rows X and Y, I ensure both scripts lock row X before row Y. Additionally, I keep transactions as short as possible to minimize the lock duration, and I implement automatic retry logic in the application layer to gracefully handle those rare unavoidable deadlocks by backing off and trying the transaction again.",
+    "why_it_works": "It demonstrates a proactive approach to prevention through consistent lock ordering alongside a reactive strategy like retry logic."
+  },
+  {
+    "id": "software_engineering_technical_03",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "Can you explain how object-oriented programming polymorphism works, using a practical example?",
+    "strong_answer": "Polymorphism simply means treating different types of objects through a uniform interface. In practice, I often use this when building payment processing systems. Imagine I have an interface called PaymentProcessor with a method named processPayment. I can create multiple classes that implement this interface, like CreditCardProcessor, PayPalProcessor, and CryptoProcessor. Because they all adhere to the same contract, my checkout service can call processPayment on any of them without needing to know the underlying implementation details. This makes my code incredibly extensible because if we add Apple Pay tomorrow, I just write a new class and plug it in without rewriting the core checkout logic.",
+    "why_it_works": "It uses a relatable, real-world e-commerce scenario to explain a core OOP concept, explicitly highlighting the architectural benefit of extensibility."
+  },
+  {
+    "id": "software_engineering_technical_04",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "What are the key best practices you follow when designing a RESTful API?",
+    "strong_answer": "When designing a REST API, I always start with resource-oriented URI naming, using plural nouns like users or orders rather than verbs. I rely heavily on standard HTTP methods like GET, POST, PUT, and DELETE to define the action being performed. Proper status codes are crucial, so I make sure a successful creation returns a 201, a missing resource returns a 404, and validation errors return a 400 with a clear error payload. Versioning is another priority for me, usually handled in the URL path, to ensure breaking changes don't disrupt existing client applications. Finally, I ensure all endpoints are secure, stateless, and well-documented.",
+    "why_it_works": "It covers all essential API design principles—naming, methods, status codes, versioning, and statelessness—in a concise, structured way."
+  },
+  {
+    "id": "software_engineering_technical_05",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "Walk me through your systematic approach to debugging a production performance bottleneck.",
+    "strong_answer": "When a production system slows down, I start by looking at monitoring dashboards to isolate where the bottleneck is happening, whether it is database CPU spikes, memory leaks, or network latency. Once I narrow down the service, I check application performance monitoring tools to drill into specific slow-running traces or SQL queries. If the issue isn't immediately obvious, I will analyze logs for error patterns and review recent deployments to see if a specific code change introduced the regression. After I reproduce the issue or pinpoint the exact faulty function, I write a targeted fix, test it thoroughly in staging, and then deploy it while keeping a close eye on the metrics.",
+    "why_it_works": "It provides a clear, methodical troubleshooting workflow moving from high-level monitoring down to root-cause isolation and deployment."
+  },
+  {
+    "id": "software_engineering_technical_06",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "How do database indexes work, and what are the trade-offs of having too many of them?",
+    "strong_answer": "Database indexes work much like the index at the back of a textbook, using data structures like B-trees to allow the database engine to locate rows quickly without scanning the entire table. When you query a column with an index, the database jumps straight to the pointer location. However, the major trade-off is write performance and storage space. Every time you insert, update, or delete a row, the database has to update every index associated with that table, which adds overhead. Too many indexes can drastically slow down write operations and consume unnecessary disk space, so I only index columns that are frequently used in search predicates and joins.",
+    "why_it_works": "It balances the read-performance benefits of indexes against the write-performance costs, showing a nuanced understanding of database tuning."
+  },
+  {
+    "id": "software_engineering_technical_07",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "Can you explain the concept of eventual consistency in distributed systems?",
+    "strong_answer": "Eventual consistency is a consistency model used in distributed databases where, if no new updates are made to a given data item, all replicas will eventually converge to the same value. In a globally distributed system, achieving immediate consistency across every node is often too costly in terms of latency due to network partitions. Instead, we allow writes to be processed locally and asynchronously replicate them across nodes. For example, when a user updates their profile picture, it might show up immediately on their primary server, but take a few seconds to propagate to edge caches worldwide. It trades off immediate read accuracy for high availability and low latency.",
+    "why_it_works": "It clearly defines the concept, gives a relatable example, and explains the underlying architectural trade-off between consistency and availability."
+  },
+  {
+    "id": "software_engineering_technical_08",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "What is dependency injection, and why is it important in software design?",
+    "strong_answer": "Dependency injection is a design pattern where an object receives its dependent objects from an external source rather than creating them itself. I use it heavily because it decouples my classes and makes unit testing much easier. For example, if my user service needs a database repository, I pass that repository in through the constructor rather than instantiating it directly inside the service. This allows me to easily pass in a mocked repository during automated testing. It leads to more modular, flexible code where components can be swapped out without modifying the dependent class.",
+    "why_it_works": "It defines the pattern simply, gives a concrete code example, and highlights its primary benefit of testability and modularity."
+  },
+  {
+    "id": "software_engineering_technical_09",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "How do you design a rate limiter for an API to prevent abuse?",
+    "strong_answer": "To design an API rate limiter, I typically use the Redis data store because its in-memory architecture and support for atomic operations make it ideal for high-throughput tracking. I often implement the token bucket or sliding window algorithm. With the sliding window log approach, I store a sorted set of timestamps for each user's requests, allowing me to accurately count requests within a rolling time window like sixty seconds. If the count exceeds the threshold, I return a standard HTTP 429 Too Many Requests status code with a retry-after header. This protects our backend services while remaining fair to legitimate clients.",
+    "why_it_works": "It names specific technologies, algorithms, and HTTP response standards, demonstrating practical backend architecture knowledge."
+  },
+  {
+    "id": "software_engineering_technical_10",
+    "role": "software engineering",
+    "category": "technical",
+    "question": "What is the difference between process-based concurrency and thread-based concurrency?",
+    "strong_answer": "The main difference comes down to memory space and resource overhead. Processes run in entirely separate memory spaces provided by the operating system, which means communication between them requires inter-process communication mechanisms like pipes or message queues, making them safer but heavier to spin up. Threads, on the other hand, live within the same process and share its memory space. This makes data sharing much faster and easier, but it introduces the risk of race conditions and deadlocks, requiring synchronization primitives like mutexes. I choose threads when I need lightweight task execution with shared state, and processes when I need strict isolation and fault tolerance.",
+    "why_it_works": "It contrasts memory management, communication overhead, and safety concerns, concluding with clear guidelines on when to use each approach."
+  }
+]

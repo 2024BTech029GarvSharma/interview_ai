@@ -1,0 +1,82 @@
+[
+  {
+    "id": "software_engineering_behavioral_01",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Tell me about a time you had a disagreement with a team member over a technical decision. How did you resolve it?",
+    "strong_answer": "Last year, a colleague and I clashed over whether to use REST or GraphQL for a new microservice. He wanted REST for its simplicity, while I pushed for GraphQL to reduce over-fetching. To resolve this, I suggested we build two quick proof-of-concept prototypes and benchmark them against our expected data loads. We tested both and found that GraphQL significantly reduced payload sizes for our mobile clients. Reviewing the data objectively removed the personal friction, and he agreed to adopt GraphQL. We delivered the service on time, and it performed efficiently in production.",
+    "why_it_works": "It demonstrates emotional intelligence and problem-solving by shifting a subjective debate into an objective, data-driven comparison using prototypes."
+  },
+  {
+    "id": "software_engineering_behavioral_02",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Describe a situation where you missed a project deadline. What happened and what did you learn?",
+    "strong_answer": "On my previous team, I misjudged the complexity of integrating a third-party payment gateway and missed our initial sprint deadline by two days. As soon as I realized the SDK documentation was outdated, I informed my engineering manager and stakeholders, providing a revised timeline. I then put in a few focused hours over the next couple of days to wrap it up. I learned to always run a quick technical spike before estimating third-party integrations. Since then, my estimations have been much more accurate and transparent.",
+    "why_it_works": "It shows accountability, proactive communication with stakeholders, and a genuine commitment to continuous improvement by changing future estimation habits."
+  },
+  {
+    "id": "software_engineering_behavioral_03",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Tell me about a time you had to take the lead on a project without having formal authority.",
+    "strong_answer": "Earlier this year, our team needed to migrate our logging infrastructure to a new provider, but no one had stepped up to own it due to busy schedules. I volunteered to lead the initiative because it directly impacted my team's debugging workflow. I organized a kickoff meeting, drafted a migration roadmap, and assigned tasks based on everyone's strengths. I kept communication open through regular updates. We completed the migration two weeks ahead of schedule, reducing our log storage costs by thirty percent and improving search speeds.",
+    "why_it_works": "It highlights initiative, organizational skills, and the ability to influence peers without relying on a management title."
+  },
+  {
+    "id": "software_engineering_behavioral_04",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Give an example of a time when you received harsh critical feedback on your code. How did you handle it?",
+    "strong_answer": "During a code review early in my career, a senior engineer left extensive, blunt comments on my pull request, pointing out severe concurrency bugs and poor naming conventions. Initially, I felt defensive. However, I took a step back, realized the feedback was meant to protect production, and scheduled a brief sync with him. He walked me through the edge cases I missed. I rewrote the code following his guidance and learned valuable concurrency patterns. That experience made me a much stronger developer and taught me not to take code reviews personally.",
+    "why_it_works": "It displays humility, emotional maturity, and the capacity to turn negative feedback into a positive learning opportunity."
+  },
+  {
+    "id": "software_engineering_behavioral_05",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Tell me about a time you had to deal with a vague set of requirements from a product manager.",
+    "strong_answer": "A few months ago, a product manager asked us to build a reporting dashboard with very vague requirements like 'make it fast and user-friendly.' Instead of guessing, I scheduled a scoping workshop with her. I prepared wireframes and user stories to map out specific metrics and export formats. This helped her visualize the product and narrow down the scope. We agreed on a minimum viable product for the first release. This approach saved us weeks of wasted coding and resulted in a dashboard the users adopted immediately.",
+    "why_it_works": "It proves strong collaboration and proactive communication skills, showing how to transform ambiguity into actionable technical requirements."
+  },
+  {
+    "id": "software_engineering_behavioral_06",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Describe a situation where you had to prioritize multiple urgent tasks under extreme time pressure.",
+    "strong_answer": "Last quarter, a critical production bug broke our checkout flow right before a major marketing campaign, while I was also trying to finish a feature deadline for the same day. I immediately paused feature work to triage the bug with the team, identifying a broken database query. Once we deployed the hotfix and stabilized production, I communicated the delay to my manager and reprioritized the remaining feature tasks. We launched the marketing campaign smoothly, and I finished the high-priority feature items by the end of the next day.",
+    "why_it_works": "It illustrates calm under pressure, effective crisis management, and the ability to distinguish between urgent fixes and important feature work."
+  },
+  {
+    "id": "software_engineering_behavioral_07",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Tell me about a time you made a mistake in production that impacted users. How did you handle it?",
+    "strong_answer": "I once pushed a database migration script that accidentally locked a core user table, causing a thirty-minute outage for our login service. As soon as alerts fired, I rolled back the migration, restored service, and notified the engineering lead. Afterward, I led our blameless post-mortem where we identified a missing query timeout in our deployment pipeline. I wrote a script to add automated checks for table locks in all future migrations. We never experienced that specific issue again, and team deployment safety improved.",
+    "why_it_works": "It demonstrates complete ownership, swift incident response, and a commitment to systemic fixes rather than placing blame."
+  },
+  {
+    "id": "software_engineering_behavioral_08",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Give an example of a time you helped a junior developer grow or overcome a difficult technical hurdle.",
+    "strong_answer": "A junior engineer on my team was struggling to understand asynchronous JavaScript concepts and kept getting blocked on asynchronous API calls. I set up a weekly thirty-minute pairing session with her. Instead of fixing her code, I walked her through event loops and promises using visual diagrams and simple analogies. Within a month, she was writing asynchronous code independently and even started mentoring others on the team. Seeing her confidence grow was incredibly rewarding and improved our overall team output.",
+    "why_it_works": "It showcases empathy, leadership, and a structured approach to mentorship that empowers others to succeed long-term."
+  },
+  {
+    "id": "software_engineering_behavioral_09",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Tell me about a time you had to convince skeptical stakeholders to adopt a new technology or architecture.",
+    "strong_answer": "Our leadership team was hesitant to adopt containerization because they feared the learning curve and infrastructure costs. To address their concerns, I put together a cost-benefit analysis and built a small-scale pilot project demonstrating a 50 percent reduction in deployment times. I presented these findings in a concise twenty-minute demo to the engineering directors, focusing on reliability and developer velocity rather than just technical jargon. They approved the migration, and the new setup successfully streamlined our entire release cycle.",
+    "why_it_works": "It highlights business acumen and communication skills, showing the ability to translate technical benefits into value that non-technical stakeholders care about."
+  },
+  {
+    "id": "software_engineering_behavioral_10",
+    "role": "software engineering",
+    "category": "behavioral",
+    "question": "Describe a time when you optimized a slow-running piece of code or system. What was your process?",
+    "strong_answer": "Our main data export service was taking over twenty minutes to run, causing timeouts for enterprise clients. I started by using profiling tools to find the bottleneck, which turned out to be an N-plus-one query problem in our ORM configuration. I refactored the code to use batch fetching and added appropriate database indexes. This reduced the export time from twenty minutes down to forty-five seconds. The client complaints stopped completely, and the infrastructure resource consumption dropped significantly during peak hours.",
+    "why_it_works": "It follows a rigorous engineering process—profiling, identifying the root cause, implementing a targeted fix, and measuring the dramatic results."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "business_consulting_behavioral_01",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Tell me about a time you had to deal with a client who resisted your recommendations.",
+    "strong_answer": "At my previous firm, a retail client strongly resisted our inventory optimization model because it contradicted their intuition. My task was to win their buy-in without alienating them. I scheduled a one-on-one working session where I actively listened to their operational concerns rather than pushing the data. I then adjusted our model to incorporate their frontline experience, running a small two-store pilot to prove the concept safely. The pilot showed a fifteen percent reduction in holding costs within a month, which completely changed their perspective. They ultimately approved the full rollout, and we built a lasting, trusting relationship.",
+    "why_it_works": "It demonstrates empathy and collaboration over arrogance, showing how the candidate uses data and active listening to overcome client resistance."
+  },
+  {
+    "id": "business_consulting_behavioral_02",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Describe a situation where you had to manage conflicting priorities from multiple stakeholders.",
+    "strong_answer": "While leading a digital transformation project, the head of marketing wanted a customer-facing portal prioritized, while the chief operations officer insisted on fixing the backend supply chain first. My task was to align these leaders on a single execution path. I facilitated an alignment workshop where we mapped both initiatives against our overall strategic goals and available budget. I proposed a phased approach that delivered quick frontend wins to satisfy marketing while laying critical supply chain infrastructure underneath. Both executives agreed, and we delivered the first milestone two weeks ahead of schedule with zero executive friction.",
+    "why_it_works": "It highlights strong stakeholder management, facilitation skills, and the ability to find pragmatic compromises that serve the broader business strategy."
+  },
+  {
+    "id": "business_consulting_behavioral_03",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Give an example of a time you uncovered a critical insight through data analysis that changed project direction.",
+    "strong_answer": "We were analyzing a manufacturing client's declining profit margins, and the initial hypothesis pointed toward rising raw material costs. My task was to conduct a deep dive into their procurement data. Instead of raw materials, my analysis of plant-level operational logs revealed that machine downtime due to poor maintenance scheduling was the actual root cause. I presented these findings to the steering committee, complete with a financial impact model. The leadership team immediately pivoted our engagement scope from supply chain negotiation to predictive maintenance, saving them millions in avoided downtime.",
+    "why_it_works": "It showcases analytical rigor, intellectual curiosity, and the courage to challenge initial assumptions based on hard evidence."
+  },
+  {
+    "id": "business_consulting_behavioral_04",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Tell me about a time you delivered a project under an extremely tight deadline.",
+    "strong_answer": "Our private equity client acquired a new asset and needed a complete hundred-day synergy plan in just two weeks for board approval. My task was to manage the financial modeling workstream under this intense pressure. I immediately streamlined our approach by identifying the top twenty percent of cost drivers that would yield eighty percent of the impact, communicating this scope adjustment to the partner. I organized our team into focused pods and instituted daily fifteen-minute syncs to remove roadblocks instantly. We delivered the comprehensive plan forty-eight hours ahead of the deadline, and the board approved the acquisition strategy unanimously.",
+    "why_it_works": "It proves the candidate can prioritize ruthlessly under pressure, manage team energy, and deliver high-stakes work without sacrificing quality."
+  },
+  {
+    "id": "business_consulting_behavioral_05",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Describe a project that failed or fell short of expectations, and how you handled it.",
+    "strong_answer": "On a software implementation project, we underestimated the complexity of legacy system integration, leading to a two-week project delay. My task was to address this shortfall with the client sponsor transparently. I scheduled an urgent meeting, took full accountability for the oversight, and presented a recovery plan that involved reallocating internal resources at no extra cost to them. We worked through the weekend with their internal IT team to bridge the integration gap. Although we missed the original intermediate milestone, we successfully recovered the timeline for the final launch, and the client commended our accountability.",
+    "why_it_works": "It shows emotional maturity, radical accountability, and resilience in turning a failure into a demonstration of trust."
+  },
+  {
+    "id": "business_consulting_behavioral_06",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Tell me about a time you had to lead a cross-functional team without having formal authority over them.",
+    "strong_answer": "I was tasked with leading a sustainability initiative that required input from HR, legal, operations, and finance teams who all had their own day jobs. My task was to drive cross-functional alignment and hit our reporting deadline. Since I couldn't lean on hierarchy, I focused on building personal relationships, understanding their individual department KPIs, and showing how our sustainability goals could actually support their local targets. I also created a transparent dashboard to track contributions so everyone felt recognized. As a result, all departments delivered their inputs on time, and we published the corporate sustainability report a week early.",
+    "why_it_works": "It illustrates strong influence-without-authority tactics, empathy for cross-functional partners, and effective motivation techniques."
+  },
+  {
+    "id": "business_consulting_behavioral_07",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Describe a situation where you had to onboard yourself quickly onto an unfamiliar industry or topic.",
+    "strong_answer": "I was suddenly staffed on a pharmaceutical pricing project with zero prior healthcare background and only a weekend to prepare. My task was to get up to speed quickly enough to lead stakeholder interviews by Monday morning. I spent Saturday reading competitor annual reports, regulatory guidelines, and internal case archives, while mapping out key industry terminology. On Sunday, I drafted a foundational framework and reviewed it with an internal subject matter expert to check my understanding. By Monday, I successfully led interviews with senior medical directors without them realizing I was new to the sector, earning praise from the engagement manager.",
+    "why_it_works": "It demonstrates rapid learning agility, resourcefulness, and the confidence to bridge knowledge gaps independently."
+  },
+  {
+    "id": "business_consulting_behavioral_08",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Tell me about a time you gave difficult constructive feedback to a junior team member.",
+    "strong_answer": "A junior analyst on my team consistently produced financial models with formatting errors that delayed our final client deliverables. My task was to address this performance issue constructively without damaging their confidence. I set up a private coffee chat, started by praising their strong analytical thinking, and then specifically addressed the recurring formatting mistakes using recent examples. I offered to pair up with them for thirty minutes before each major deadline to build a quality control checklist together. Their output improved dramatically over the next two weeks, and they later thanked me for the mentorship.",
+    "why_it_works": "It highlights empathetic leadership, effective coaching skills, and the ability to turn a performance issue into a growth opportunity."
+  },
+  {
+    "id": "business_consulting_behavioral_09",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Describe a time you navigated an ambiguous problem with very little initial guidance.",
+    "strong_answer": "A client asked us to explore new growth markets for their consumer product, but gave us zero directional guidelines or target geographies. My task was to structure this ambiguous problem into a manageable analysis. I spent the first few days building a hypothesis-driven market entry framework based on macroeconomic trends, consumer demographics, and regulatory ease. I presented this structure to the partner to align on our approach before deep-diving into data collection. This structured approach saved weeks of wandering research, and we ultimately identified three high-potential emerging markets that the client pursued.",
+    "why_it_works": "It proves the candidate's ability to bring structure to ambiguity, a core competency required in top-tier consulting."
+  },
+  {
+    "id": "business_consulting_behavioral_10",
+    "role": "business consulting",
+    "category": "behavioral",
+    "question": "Give an example of a time you persuaded senior leadership to change their strategic direction.",
+    "strong_answer": "Our client's executive team was planning to divest a struggling business unit based on historical revenue losses. My task was to evaluate the division's true potential through a granular market study. My analysis showed that while the core product was outdated, their underlying customer data platform was exceptionally valuable and could be pivoted into a high-margin software-as-a-service model. I prepared a concise pitch deck and presented these findings directly to the CEO during a steering committee meeting. The CEO agreed to halt the divestiture process and instead funded the digital pivot, which eventually grew into a profitable new revenue stream.",
+    "why_it_works": "It showcases strategic thinking, executive presence, and the courage to challenge senior leadership with robust, data-backed insights."
+  }
+]

@@ -1,0 +1,8 @@
+langgraph
+openai-whisper
+spacy
+sentence-transformers
+faiss-cpu
+streamlit
+python-dotenv
+openai

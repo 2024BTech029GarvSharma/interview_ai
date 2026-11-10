@@ -1,0 +1,82 @@
+[
+  {
+    "id": "business_consulting_technical_01",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "Our client is a premium coffee chain experiencing a drop in operating profits over the last two quarters. How would you structure your approach to diagnose the root cause?",
+    "strong_answer": "I would start by examining the fundamental profit equation, breaking profitability down into total revenues and total costs. To understand revenues, I would analyze average transaction values, customer footfall, and pricing strategies across different store locations. On the cost side, I would look at both fixed expenses like rent and corporate overhead, and variable costs including ingredients, packaging, and store-level labor. By comparing these metrics against historical performance and industry benchmarks, I can isolate whether the margin compression is driven by falling top-line demand, rising supply chain expenses, or operational inefficiencies at the store level.",
+    "why_it_works": "The answer immediately establishes a structured framework using the profit equation, guiding the interviewer through a logical hypothesis-driven breakdown of revenues and costs."
+  },
+  {
+    "id": "business_consulting_technical_02",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "How many golf balls are manufactured globally each year? Walk me through your estimation process.",
+    "strong_answer": "I will estimate this using a demand-side approach based on the global population of golfers. Assuming a world population of eight billion, perhaps one percent play golf regularly, giving us eighty million active golfers. I estimate that casual players use around two dozen balls a year, while avid players might go through five dozen, averaging out to about three dozen per player annually. Multiplying eighty million golfers by thirty-six balls yields roughly two billion eight hundred million balls. Factoring in professional tournaments, driving ranges, and lost inventory, I would round the final global manufacturing volume to approximately three billion golf balls per year.",
+    "why_it_works": "It demonstrates a clear, top-down estimation methodology with explicit assumptions, reasonable proxies, and simple math executed out loud."
+  },
+  {
+    "id": "business_consulting_technical_03",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A legacy insurance provider wants to evaluate the threat of emerging technology startups capturing market share in personal lines. How would you assess this competitive risk?",
+    "strong_answer": "I would structure the assessment around customer behavior, regulatory barriers, and technological capabilities. First, I would segment the customer base to see which demographics are most likely to adopt digital-first insurance products, particularly younger cohorts valuing speed and personalization. Next, I would evaluate regulatory hurdles, as compliance costs often slow down startups but also protect incumbents. Finally, I would audit the incumbent's proprietary data assets against the startups' agile tech stacks to determine if the legacy firm can acquire, partner with, or replicate these innovative offerings before losing core market segments.",
+    "why_it_works": "It uses a comprehensive strategic framework that balances customer demand, regulatory context, and core asset defensibility."
+  },
+  {
+    "id": "business_consulting_technical_04",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A mid-sized manufacturing company has five distinct expansion projects on the table, but capital budget constraints mean they can only fund two. How would you help them prioritize?",
+    "strong_answer": "I would establish a multi-criteria decision framework that balances financial returns with strategic alignment and risk. Financially, I would calculate the net present value and internal rate of return for each project to understand cash flow potential and payback periods. Strategically, I would evaluate how well each project supports long-term goals, such as digital transformation or entering high-growth geographic markets. Finally, I would assess implementation risk, including regulatory hurdles and operational complexity. By scoring each project across these weighted dimensions, I can present an objective recommendation to the executive team.",
+    "why_it_works": "It moves beyond simple financial metrics to incorporate strategic fit and risk, reflecting a holistic executive-level decision-making process."
+  },
+  {
+    "id": "business_consulting_technical_05",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A major retail bank is seeing a high customer churn rate in its primary checking account segment. How would you analyze this retention problem?",
+    "strong_answer": "I would begin by mapping the customer journey to identify exact drop-off points, utilizing churn prediction models based on transaction history and service interactions. Next, I would segment the churned customers by tenure and profitability to see if the loss is concentrated in unprofitable new sign-ups or high-value long-term clients. I would also review customer feedback, complaint logs, and competitor offerings to determine if the issue stems from poor service, high fee structures, or a lack of digital features. This diagnostic will pinpoint where targeted retention interventions are most urgently needed.",
+    "why_it_works": "It combines quantitative data analysis, customer segmentation, and qualitative feedback to provide a thorough diagnostic plan."
+  },
+  {
+    "id": "business_consulting_technical_06",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "Our client, a traditional brick-and-mortar bookstore chain, is considering launching an e-commerce subscription box for niche genres. How would you size the addressable market for this new product?",
+    "strong_answer": "I would use a bottom-up approach starting with the total reading population in our target geographies. I would estimate the percentage of readers who actively purchase physical books and subscribe to monthly services, then narrow that down to enthusiasts of specific niche genres like sci-fi or historical fiction. After establishing the addressable audience size, I would factor in an assumed monthly subscription price point to calculate total market revenue potential. Finally, I would apply a realistic market share capture rate based on our brand recognition and competitor landscape to determine our expected revenue.",
+    "why_it_works": "It outlines a logical bottom-up market sizing approach, translating audience segments and pricing into a tangible revenue forecast."
+  },
+  {
+    "id": "business_consulting_technical_07",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A global logistics provider is suffering from declining operating margins due to rising fuel costs and inefficient routing. How would you approach designing a cost optimization program?",
+    "strong_answer": "I would divide the cost transformation into immediate quick wins and long-term structural changes. For quick wins, I would audit current fleet routing software to identify immediate mileage reductions and evaluate fuel surcharges across customer contracts. For structural optimization, I would analyze warehouse location strategies, fleet fuel efficiency upgrades, and potential consolidation of underperforming shipping lanes. Throughout this process, I would ensure that any cost reduction initiatives do not negatively impact delivery speed or customer satisfaction metrics.",
+    "why_it_works": "It balances short-term tactical savings with long-term operational changes while emphasizing the importance of protecting service quality."
+  },
+  {
+    "id": "business_consulting_technical_08",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A telecommunications company is planning to bid on a multi-billion-dollar government contract for rural broadband infrastructure. How would you structure a risk assessment for this bid?",
+    "strong_answer": "I would categorize risks into financial, operational, regulatory, and reputational buckets. Financially, I would stress-test the cost assumptions against potential supply chain inflation and unexpected construction delays. Operationally, I would evaluate subcontractor reliability, workforce availability in remote areas, and technical integration hurdles. Regulatory-wise, I would review compliance penalties for missing milestone deadlines and potential policy shifts. By quantifying the probability and impact of each risk, I can help leadership decide whether the risk-adjusted return justifies submitting a bid.",
+    "why_it_works": "It applies a structured risk taxonomy and focuses on risk-adjusted returns, which is crucial for high-stakes bidding decisions."
+  },
+  {
+    "id": "business_consulting_technical_09",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "An agricultural chemicals firm wants to enter the emerging market for biological pest control products. What framework would you use to evaluate this market entry strategy?",
+    "strong_answer": "I would use a market entry framework covering industry attractiveness, competitive landscape, capability assessment, and entry mode. First, I would analyze the growth rate and regulatory approval timelines for biological products versus traditional chemicals. Second, I would map existing competitors, from established agribusinesses to agile biotech startups. Third, I would assess our client's existing distribution channels and R&D capabilities to see if they can leverage them for this new product line. Finally, I would weigh the pros and cons of organic development, acquiring a specialized startup, or forming a joint venture.",
+    "why_it_works": "It deploys a classic strategy consulting framework while tailoring the specific levers to the agricultural and biotech context."
+  },
+  {
+    "id": "business_consulting_technical_10",
+    "role": "business consulting",
+    "category": "technical",
+    "question": "A regional healthcare provider is experiencing severe emergency room overcrowding and long patient wait times. How would you operationalize a capacity management solution?",
+    "strong_answer": "I would analyze patient flow across three stages: intake, treatment, and discharge. First, I would examine the intake process to see if fast-track triage can divert non-emergency cases to urgent care clinics. Second, I would look at operational bottlenecks within the treatment phase, such as staffing schedules, diagnostic equipment availability, and bed turnover rates. Third, I would review discharge planning processes, as delayed discharges often back up the entire hospital. By identifying the specific bottlenecks causing the queue, we can design targeted operational interventions to improve patient throughput.",
+    "why_it_works": "It breaks down a complex service operation into distinct sequential stages, mirroring an industrial engineering approach to healthcare delivery."
+  }
+]

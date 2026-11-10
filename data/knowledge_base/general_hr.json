@@ -1,0 +1,82 @@
+[
+  {
+    "id": "general_hr_01",
+    "role": "general",
+    "category": "hr",
+    "question": "Tell me about yourself.",
+    "strong_answer": "I have spent the last five years working in customer operations, mostly focusing on process improvement and team training. In my most recent role, I led a project that cut our average response time by twenty percent while also mentoring several junior staff members. Outside of work, I enjoy long-distance running, which helps me stay disciplined and focused. I am now looking to bring my background in operational efficiency to a larger team where I can take on more strategic responsibilities.",
+    "why_it_works": "It provides a concise professional timeline, highlights a measurable achievement, adds a personal touch, and clearly states the candidate's current career direction."
+  },
+  {
+    "id": "general_hr_02",
+    "role": "general",
+    "category": "hr",
+    "question": "What would you say is your greatest professional strength?",
+    "strong_answer": "My greatest strength is my ability to translate complex data into clear, actionable steps for non-technical teams. In my previous role, our department struggled to understand weekly performance metrics. I took the initiative to build a simplified dashboard and hosted weekly briefings to walk everyone through the numbers. This dramatically improved our team's alignment and overall output. I pride myself on bridging the gap between technical details and everyday execution.",
+    "why_it_works": "It pairs a specific skill with a concrete example of how it solved a real business problem, proving the strength in action."
+  },
+  {
+    "id": "general_hr_03",
+    "role": "general",
+    "category": "hr",
+    "question": "What is your biggest professional weakness?",
+    "strong_answer": "Historically, I have struggled with delegating tasks because I like to ensure everything is done to a very high standard. A few years ago, this tendency led to burnout when I tried to manage a massive product launch almost entirely on my own. Since then, I have actively worked on trusting my teammates. I now focus on setting clear expectations upfront and checking in periodically rather than micromanaging, which has made me a much more effective leader.",
+    "why_it_works": "It shares a genuine, relatable flaw, explains the negative impact it once had, and outlines the specific steps taken to correct it."
+  },
+  {
+    "id": "general_hr_04",
+    "role": "general",
+    "category": "hr",
+    "question": "Why do you want to work for our company?",
+    "strong_answer": "I have been following your organization for quite some time, and I am heavily drawn to your commitment to sustainable product development. Too many companies treat sustainability as an afterthought, but your recent launch of the zero-waste supply chain proves it is core to your business model. Additionally, I spoke with a former colleague who now works here, and she spoke volumes about the collaborative culture and the emphasis on internal growth. I want to bring my operational skills to a place whose values genuinely match my own.",
+    "why_it_works": "It demonstrates thorough research into the company's specific mission and culture, moving beyond generic compliments to show authentic alignment."
+  },
+  {
+    "id": "general_hr_05",
+    "role": "general",
+    "category": "hr",
+    "question": "Where do you see your career in five years?",
+    "strong_answer": "In five years, I see myself stepping into a senior management role within operations, ideally leading a cross-functional team on large-scale strategic initiatives. Over the next few years, I want to deepen my expertise in financial forecasting and change management so I can guide organizations through major transitions. I am looking for a company that invests in leadership development and offers a clear path for internal growth, which is why I am so excited about this opportunity.",
+    "why_it_works": "It outlines a realistic and ambitious career trajectory that aligns with upward mobility within the company, showing long-term commitment."
+  },
+  {
+    "id": "general_hr_06",
+    "role": "general",
+    "category": "hr",
+    "question": "How do you handle working under high pressure or tight deadlines?",
+    "strong_answer": "When I face tight deadlines, my first step is to break the overarching project down into smaller, manageable tasks and identify what is truly urgent versus what is merely important. Last quarter, our primary client shifted their timeline up by two weeks, putting immense pressure on our delivery team. I immediately reorganized our sprint backlog, communicated the adjusted timeline to stakeholders, and kept everyone focused on daily milestones. Staying organized and communicating transparently keeps me calm and ensures we still deliver quality work.",
+    "why_it_works": "It highlights a systematic approach to stress management backed by a real-world example of prioritizing and maintaining clear stakeholder communication."
+  },
+  {
+    "id": "general_hr_07",
+    "role": "general",
+    "category": "hr",
+    "question": "Can you describe a time when you disagreed with a coworker and how you resolved it?",
+    "strong_answer": "A couple of months ago, a colleague and I had a sharp disagreement over the design architecture for a new client portal. He favored a feature-heavy approach, while I believed we needed to keep it simple to meet our launch deadline. Instead of arguing over email, I invited him for a quick coffee chat to genuinely understand his perspective. We realized we were both trying to serve the client, just through different lenses. We compromised by launching a streamlined version first with his requested features slated for phase two.",
+    "why_it_works": "It demonstrates emotional intelligence, proactive communication, and a focus on collaborative problem-solving rather than ego."
+  },
+  {
+    "id": "general_hr_08",
+    "role": "general",
+    "category": "hr",
+    "question": "Why are you looking to leave your current role?",
+    "strong_answer": "I have learned a tremendous amount in my current position over the last three years, especially regarding project management and client relations. However, our department has recently restructured, and the opportunities for me to take on larger strategic leadership responsibilities have plateaued. I am looking for a new challenge where I can apply my existing skill set while continuing to grow professionally in a more dynamic environment.",
+    "why_it_works": "It remains entirely positive about the current employer while clearly stating growth-oriented reasons for seeking a change."
+  },
+  {
+    "id": "general_hr_09",
+    "role": "general",
+    "category": "hr",
+    "question": "How do you prioritize your daily workload when everything feels urgent?",
+    "strong_answer": "When everything feels urgent, I rely on the Eisenhower Matrix to separate tasks by true urgency and long-term impact. Every morning, I spend the first fifteen minutes reviewing my goals for the week and updating my daily task list. If a new, urgent request comes in from management, I evaluate it against my current commitments and proactively talk to my manager if something needs to be deprioritized. This habit ensures I am always focusing on high-impact work rather than just putting out fires.",
+    "why_it_works": "It showcases a structured, methodical framework for time management and proactive stakeholder management when demands pile up."
+  },
+  {
+    "id": "general_hr_10",
+    "role": "general",
+    "category": "hr",
+    "question": "What is your greatest professional achievement so far?",
+    "strong_answer": "My proudest achievement was leading the transition of our regional sales team to a completely new CRM platform last year. The team was initially resistant to the change, fearing it would slow down their daily workflow. I organized a series of interactive training workshops and created step-by-step video guides tailored to different experience levels. As a result, we hit one hundred percent adoption within four weeks, and our data accuracy improved by thirty percent. It proved to me how much can be accomplished with proper change management.",
+    "why_it_works": "It uses the STAR method naturally, detailing the challenge, the candidate's specific actions, and the measurable business results."
+  }
+]
