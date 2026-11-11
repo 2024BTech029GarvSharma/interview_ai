@@ -63,7 +63,7 @@ DRAFT FEEDBACK:
 {state['feedback']}
 
 Check these three things:
-1. 1. FABRICATION: does the draft, especially "Stronger version", state any fact about the candidate's experience that is not in the transcript? Rewording is fine. New reasons, tools, numbers, outcomes, skills or personal qualities (such as teamwork, leadership or discipline) are not. Guessing a degree name, or expanding an abbreviation the transcript does not spell out, also counts as fabrication. Where the transcript is unclear, the draft should use a placeholder in square brackets instead of guessing.
+1. FABRICATION: does the draft, especially "Stronger version", state any fact about the candidate's experience that is not in the transcript? Rewording is fine. New reasons, tools, numbers, outcomes, skills or personal qualities (such as teamwork, leadership or discipline) are not. Guessing a degree name, or expanding an abbreviation the transcript does not spell out, also counts as fabrication. Where the transcript is unclear, the draft should use a placeholder in square brackets instead of guessing.
 2. METRICS: do the numbers quoted match the measured metrics exactly?
 3. GROUNDING: is the advice under "What to improve" supported by what the reference examples do well, rather than being generic?
 
