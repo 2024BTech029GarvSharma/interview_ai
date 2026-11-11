@@ -91,7 +91,7 @@ if result:
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Pace (wpm)", m["words_per_minute"], m["pace"], delta_color="off")
     c2.metric("Fillers", m["filler_total"], f"{m['filler_per_100_words']} per 100 words", delta_color="off")
-    c3.metric("Words", m["word_count"])
+    c3.metric("Words", m["word_count"], f"{m['duration_seconds']} s of speech", delta_color="off")
     c4.metric("Avg sentence", m["avg_sentence_length"])
     if m["filler_breakdown"]:
         st.caption("Fillers heard: " + ", ".join(f"{w} x{n}" for w, n in m["filler_breakdown"].items()))
